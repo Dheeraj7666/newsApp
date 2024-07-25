@@ -1,0 +1,29 @@
+/* App.css */
+.card-fixed-size {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin: auto;
+    height: 500px; /* Increase height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-img-top {
+    height: 250px; /* Adjust height of the image */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    flex: 1;
+    padding: 1.5rem; /* Increase padding if needed */
+  }
+  
+  .btn {
+    width: 100px;
+  }
+  
+  .card-body .btn-group {
+    margin-top: auto; /* Push buttons to the bottom */
+  }
+  
